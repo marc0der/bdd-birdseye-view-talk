@@ -33,20 +33,44 @@
 	<body>
 
 		<div class="reveal">
-
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
-
-				<section data-markdown="markdown/01-title.md" data-separator="^\n\n\n" data-vertical="^\n\n"></section>
-				<section data-state="alert">
-					<h2>Bad Wrap</h2>
-					<p class="fragment fadein">An Orphan</p>
-					<p class="fragment fadein">Marketing Hype</p>
-					<p class="fragment fadein">ATDD (Acceptance Test Driven Development)</p>
-					<p class="fragment fadein">Lost it's Zing!!!</p>
+				<section data-state="blackout" data-markdown="markdown/01-title.md" data-separator="^\n\n\n" data-vertical="^\n\n"></section>
+				<section data-state="blackout" data-markdown="markdown/02-about_me.md" data-separator="^\n\n\n" data-vertical="^\n\n"></section>
+				<section data-state="blackout" data-markdown="markdown/03-about_talk.md" data-separator="^\n\n\n" data-vertical="^\n\n"></section>
+				<section>
+					<section data-state="alert">
+						<h2>Bad Wrap</h2>
+						<p class="fragment fadein">An Orphan</p>
+						<p class="fragment fadein">Marketing Hype</p>
+						<p class="fragment fadein">ATDD (Acceptance Test Driven Development)</p>
+						<p class="fragment fadein">Lost it's Zing!!!</p>
+					</section>
+					<section data-state="soothe">
+						<h2>Good Vibrations</h2>
+						<p class="fragment fadein">TDD Evolved</p>
+						<p class="fragment fadein">Inspires Collaboration</p>
+						<p class="fragment fadein">Behaviour vs Implementation</p>
+						<p class="fragment fadein">Abundance of Tools</p>
+						<p class="fragment fadein">Simples</p>
+					</section>
+					<section data-state="blackout">
+						<h2>BDD Defined</h2>
+						<p>Straight from the horse's mouth:</p>
+						<blockquote align="center" class="twitter-tweet"><p><a href="https://twitter.com/search/%23BDD">#BDD</a> in a tweet: Using examples at multiple levels to create a shared understanding and surface uncertainty to deliver software that matters</p>&mdash; Dan North (@tastapod) <a href="https://twitter.com/tastapod/status/338749038100897792">May 26, 2013</a></blockquote>
+					</section>
+					<section data-state="blackout">
+						<h2>BDD in a Nutshell</h2>
+						<p class="fragment highlight-red">Using Examples</p>
+						<p class="fragment highlight-red">at multiple levels</p>
+						<p class="fragment highlight-red">create a shared understanding</p>
+						<p class="fragment highlight-red">and surface uncertainty</p>
+						<p class="fragment highlight-red">to deliver software</p>
+						<p class="fragment highlight-red">that matters!</p>
+					</section>
 				</section>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 			</div>
-
 		</div>
 
 		<script src="lib/js/head.min.js"></script>
@@ -63,7 +87,7 @@
 				center: true,
 
 				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-				transition: Reveal.getQueryHash().transition || 'page', // default/cube/page/concave/zoom/linear/fade/none
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
 
 				// Optional libraries used to extend on reveal.js
 				dependencies: [
