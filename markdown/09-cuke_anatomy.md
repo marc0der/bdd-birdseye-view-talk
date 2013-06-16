@@ -1,6 +1,7 @@
-##Cucumber Anatomy
+####Cucumber and Gradle
+##An Anatomy
 
-* Cucumber dependencies
+* Dependencies
 * JUnit Test Runner
 * Gherkin
 * Step Definitions
