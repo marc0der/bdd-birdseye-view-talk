@@ -3,7 +3,7 @@
 
 	plugins {
 		...
-		test ":cucumber:0.8.0"
+		test ":cucumber:0.10.0"
 		...
 	}
 
