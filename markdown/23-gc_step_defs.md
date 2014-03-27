@@ -1,21 +1,19 @@
 ####Grails Cucumber Example
 ##Step Definitions
 
-	Given(~'^the candidate "([^"]*)" exists with default version "([^"]*)"$'){ String name, String defaultVersion ->
-	    def candidate = new Candidate(
-	    	name: name, 
-	    	defaultVersion: defaultVersion
-	    )
-	    assert candidate.save()
-	}
-	When(~'^I visit the Candidate page$') { ->
-	    to CandidatePage
-	    at CandidatePage
-	}
-	Then(~'^I see "([^"]*)" listed$') { String candidateName ->
-	    assert page.isCandidateInList(candidateName)
+	Given(~'^an Invader named "([^"]*)"$') { String name ->
+		quote = new Quote(name:name)
 	}
 
-<p class="fragment roll-in">`test/cucumber/steps/manage_candidates.groovy`</p>
+	When(~'^a Quote is requested for "([^"]*)"$') { String name ->
+		to QuotePage
+	}
+
+	Then(~'^we see "([^"]*)"$') { String quote ->
+	    def invasionQuote = page.fetchInvasionQuote()
+	    assert invasionQuote == quote
+	}
+
+<p class="fragment roll-in">`test/cucumber/steps/quote_steps.groovy`</p>
 <p class="fragment roll-in"><em>Gorm!</em></p>
 <p class="fragment roll-in"><em>Geb!</em></p>

@@ -1,4 +1,4 @@
-#So???
+#So What?
 
 <ul>
 	<li class="fragment highlight-blue">Collaborate on a <em>Specification</em> that <em>all</em> understand.</li>

@@ -5,4 +5,4 @@
 * Cucumber as solution
 * Mini Cucumber Demo
 * Grails Cucumber Plugin
-* Example Application
+* Sample Application

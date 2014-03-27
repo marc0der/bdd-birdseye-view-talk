@@ -1,11 +1,18 @@
 ####Grails Cucumber Example
 ##Geb Module
 
-	class CandidateModule extends Module{
-	    static content = {
-	        name { $("#name") }
-	        defaultVersion { $("#default") }
-	    }
-	}
+class QuotePage extends Page {
 
-`test/functional/modules/CandidatePage.groovy`
+    static url
+    static at = { title == "Invader Zim Quotes" }
+
+    static content = {
+        quote { $("#message") }
+    }
+
+    def fetchInvasionQuote(){
+        quote.text()
+    }
+}
+
+`test/functional/modules/QuotePage.groovy`

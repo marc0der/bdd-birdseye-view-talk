@@ -1,9 +1,9 @@
 ####Grails Cucumber Example
 ##Domain Class
 
-	class Candidate {
-	    String name
-	    String defaultVersion
+	class Quote {
+		String name
+		String message
 	}
 
-`grails-app/domain/../Candidate.groovy`
+`grails-app/domain/../Quote.groovy`

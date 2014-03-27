@@ -3,10 +3,10 @@
 
 	After () {
 
-	    def sessionFactory = appCtx.getBean("sessionFactory")
+	    def sessionFactory = applicationContext.getBean("sessionFactory")
 	    sessionFactory.currentSession.flush()
 
-	    def dataSource = appCtx.getBean("dataSource")
+	    def dataSource = applicationContext.getBean("dataSource")
 
 	    //clean fixtures
 	    println "Deleting the fixture..."

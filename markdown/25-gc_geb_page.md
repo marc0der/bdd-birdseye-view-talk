@@ -1,21 +1,19 @@
 ####Grails Cucumber Example
 ##Geb Page
 
-	class CandidatePage extends Page {
-	    static url = "candidate/list"
-	    static at = { title ==~ /Candidate List/ }
+	class QuotePage extends Page {
 
-	    static content = {
-	        candidateList { $("div.list table", 0) }
-	        candidate { candidateName -> 
-	        	module CandidateModule, $("#$candidateName")
-	        }
-	    }
+		static url = "/zim-grails/invader"
+		static at = { title == "Invader Zim Quotes" }
 
-	    def isCandidateInList(String candidateName){
-	        def candidateRow = candidate(candidateName)
-	        return candidateRow ? true : false
-	    }
+		static content = {
+		    quote { $("#message") }
+		}
+
+		def fetchInvasionQuote(){
+		    quote.text()
+		}
+
 	}
 
-`test/functional/page/CandidatePage.groovy`
+`test/functional/page/QuotePage.groovy`

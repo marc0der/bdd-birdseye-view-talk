@@ -3,10 +3,8 @@
 
 #####Controller
 
-	class CandidateController {
-	    def list(Integer max) {
-	        params.max = Math.min(max ?: 10, 100)
-	        [candidateInstanceList: Candidate.list(params), 
-	        	candidateInstanceTotal: Candidate.count()]
-	    }
+	class InvaderController {
+		def index(String id) {
+		    [quote: Quote.findByName(id)]
+		}
 	}
