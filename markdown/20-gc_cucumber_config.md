@@ -10,4 +10,4 @@
 
 <p class="fragment roll-in">`grails-app/conf/CucumberConfig.groovy`</p>
 
-<p class="fragment roll-in"><em>Replaces Test Runner <a href="/cuke-groovy-talk/#/4/3">configuration</a>.</em></p>
+<p class="fragment roll-in"><em>Replaces Test Runner <a href="/cucumber/#/4/3">configuration</a>.</em></p>
