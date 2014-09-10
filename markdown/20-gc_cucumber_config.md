@@ -2,10 +2,11 @@
 ##Configuration
 
 	cucumber {
-		tags = ["~@wip"]
-		features = ["test/cucumber"]
-		glue = ["test/steps", "test/support"]
-		formats = [ "html:target/test-reports/cucumber" ]
+	    tags = ["~@wip"]
+	    features = ["test/cucumber"]
+	    glue = ["test/steps"]
+	    formats = [ "html:target/test-reports/cucumber" ]
+	    strict = true
 	}
 
 <p class="fragment roll-in">`grails-app/conf/CucumberConfig.groovy`</p>

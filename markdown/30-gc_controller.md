@@ -1,5 +1,5 @@
 ####Grails Cucumber Example
-##Controller
+##Controllers
 
 #####Controller
 
@@ -8,3 +8,7 @@
 		    [quote: Quote.findByName(id)]
 		}
 	}
+
+#####URL Mapping
+
+	"/invader/$name"(controller: "invader")

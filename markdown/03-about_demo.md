@@ -12,5 +12,6 @@
 <li class="fragment fadein">Discontinued, with Cult following!</li>
 <li class="fragment fadein">Theme of IMPENDING DOOM!</li>
 <li class="fragment fadein">Characters: Zim and GIR</li>
+<li class="fragment fadein"><a href="https://github.com/marcoVermeulen/invader-zim-grails">Available on GitHub</a></li>
 </ul>
 
