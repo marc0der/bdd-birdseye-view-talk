@@ -6,3 +6,4 @@
 * Mini Cucumber Demo
 * Grails Cucumber Plugin
 * Sample Application
+* This talk: http://bit.ly/1uIYrEm
