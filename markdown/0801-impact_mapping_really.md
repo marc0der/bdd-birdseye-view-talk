@@ -3,7 +3,8 @@
 ###What is it REALLY?!?
 
 * A Mind Mapping technique
-* Establish Goals, Actors, Impacts and Features
-* Interactive and Communicative
+* Goals, Actors, Impacts and Features
+* Interactive
+* Communicative
 * Visual
 * Fast

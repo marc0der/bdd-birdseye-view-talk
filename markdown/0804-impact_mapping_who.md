@@ -4,7 +4,7 @@
 
 ####Who will be Impacted?
 
-* The Actors, impacted directly or indirectly.
+* Actors, impacted directly or indirectly.
 * Who can produce desired effect?
 * Who can obstruct it?
 * Who are the consumers or users of our product?

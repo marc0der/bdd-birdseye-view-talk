@@ -6,9 +6,9 @@
 
 The Deliverables or Features or Organisational Activities.
 
-* Least important level to get right immediately!
+* Least important level to get right!
 * Iteratively refine this.
-* Can be broken down to multiple levels on the Mind Map.
+* Broken down to multiple levels on the Mind Map.
 * Items on the backlog.
 * Brings order to the backlog.
 

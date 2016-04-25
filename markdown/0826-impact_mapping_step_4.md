@@ -2,7 +2,7 @@
 
 ####Mapping Step 4
 
-##Inject Features
+##Introduce Features
 
 Grow list of Deliverables/Features
 
